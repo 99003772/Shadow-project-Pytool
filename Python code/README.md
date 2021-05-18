@@ -1,6 +1,9 @@
 import os
+
 import re
+
 import xml.dom.minidom
+
 def NAT_network():
 
         doc = xml.dom.minidom.parse("nat223.xml")
