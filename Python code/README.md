@@ -10,7 +10,7 @@
                 os.system('virsh net-start nat223')
                 os.system('virsh net-autostart nat223')
 
-        //Function to display the networks
+        //Function to the networks
         def display_network():
                 os.system('virsh net-list --all')
                 
@@ -35,8 +35,9 @@
                 --location /var/lib/libvirt/images/CentOS-8.3.2011-x86_64-minimal.iso \
                 --network network='+netw+' \
                 --console pty,target_type=serial -x \'console=ttyS0,115200n8 serial\'')
+                
 
-
+        //Function to display the network connections
         def networks():
                 os.system('ifconfig')
                 
@@ -47,8 +48,9 @@
                 os.system('virsh list --all')
                 print "Printing all active domains\n"
                 os.system('virsh list')
+                
 
-
+        //Ping the VM to check communication
         def PingIp():
                 ipaddr = raw_input('Enter the IP address:')
                 ipaddr = raw_input('Enter the IP address:')
