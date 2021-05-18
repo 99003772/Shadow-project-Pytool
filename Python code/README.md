@@ -13,13 +13,15 @@
         //Function to the networks
         def display_network():
                 os.system('virsh net-list --all')
+                
 
-
+        //Function to delete the NAT network
         def delete_NAT_network():
                 os.system('virsh net-destroy nat223')
                 os.system('virsh net-undefine nat223')
+                
 
-
+        //Function to create virtual machine
         def create_vm(name, path, netw):
                 os.system('sudo virt-install \
                 --name ' + name+' \
@@ -37,8 +39,9 @@
 
         def networks():
                 os.system('ifconfig')
+                
 
-
+        //Functions to display the virtual machine
         def display_vm():
                 print "Printing all active and inactive domains\n"
                 os.system('virsh list --all')
@@ -56,19 +59,22 @@
                 else:
                         print "IP reachable"
                         print output
+                        
 
-
+        //Functions to shut down the virtual machine
         def shutdown_vm(name):
                 shut = 'virsh shutdown '+name
                 print shut
                 os.system(shut)
+                
 
-
+        //Function to the run the virtual machine
         def run_vm(name):
                 run = 'virsh start '+name
                 os.system(run)
+                
 
-
+        //Function to delete the virtual machine
         def delete_vm(name, path):
                 destroy = 'virsh destroy '+name+' 2> /dev/null'
                 os.system(destroy)
