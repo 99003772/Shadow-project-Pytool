@@ -2,10 +2,12 @@ import os
 import re
 import xml.dom.minidom
 def NAT_network():
+
         doc = xml.dom.minidom.parse("nat223.xml")
         os.system('virsh net-define nat223.xml')
         os.system('virsh net-start nat223')
         os.system('virsh net-autostart nat223')
+        
 def display_network():
         os.system('virsh net-list --all')
 def delete_NAT_network():
