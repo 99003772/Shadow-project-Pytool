@@ -10,7 +10,7 @@
                 os.system('virsh net-start nat223')
                 os.system('virsh net-autostart nat223')
 
-        //Function to the networks
+        //Function to display the networks
         def display_network():
                 os.system('virsh net-list --all')
                 
