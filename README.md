@@ -20,6 +20,25 @@ So first we'll create a network file where we'll define the name, mask, subnet m
 
 Now to check if the VM has been created and is able to communicate with the host machine or not we'll first check all the network connections. As we have made virtual bridge in the network connection, we can check the IP address of it to ping the VM. After pinging we will see that the packets are transmitted and there is no loss which means that the IP is reachable and is able to ping the host machine.
 
+# 4W1H
+What: 
+1. We're creating a Virtual machine in which we're using a KVM guest that is built into linux. 
+2. We're using libvirt package that provides the server and host side libraries for interacting with hypervisors and host system.  
+3. For communicating with libvirt, we use a command line tool called virsh.  
+
+When:
+1. When we need multiple machines working simultaneously with different OS, or functionalities. 
+
+Why:
+1.  We're creating a VM by mentioning the name, path & the network, so that the installation process will begin.
+2.  To check if the VM has been created and is able to communicate with the host machine or not we'll first check all the network connections. 
+
+Where:
+
+How:
+Input: We need to give the choice between 1-11. 
+Output: We will be able to create a VM, display all VM, run the VM, shutdown the VM, delete the VM, display the network connections, Ping the VM, creation of a network, display all networks, delete a network, exit the program.
+
 # Challenges Faced 
 There are some challenges faced during the project. They are:
 · Deploying the ISO Image to Virtual Machine.
