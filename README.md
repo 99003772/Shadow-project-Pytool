@@ -42,8 +42,14 @@ Output: We will be able to create a VM, display all VM, run the VM, shutdown the
 
 # Challenges Faced 
 There are some challenges faced during the project. They are:
+
+
 · Deploying the ISO Image to Virtual Machine.
+
 · Finding differences between ISO and qcow2.
+
 · Adding network XML fil to code.
+
 · While connecting to the portal Network connecting issues for connecting to serial console.
+
 · All the issues were solved by searching in internet and with references.
