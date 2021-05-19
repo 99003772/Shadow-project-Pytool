@@ -11,7 +11,7 @@ Using Pytool we need to do Vm creation, deletion, network creation, NAT, so that
 | NAT Execution  |  Akshansh Mishra  |
 | Manual Code   |  Jasleen Kaur Sethi  |
 | Code Template-Menu Driven Program  |  Md. Danish Alam  |
-|Network Creation for Virtual Machine  | Sayani Basak  |
+| Creation and Installation of Virtual Machine  | Sayani Basak  |
 
 # Summary of the Project
 In this project, we'll see how to create a VM, delete a VM, shutdown a VM, pinging the VM, network creation, creation of NAT, so that we can display number of Virtual machines, network status. Here, we're creating a Virtual machine in which we're using a KVM guest that is built into Linux. KVM lets us turn Linux into a hypervisor that allows a host machine to run multiple Virtual machines. We're using libvirt package that provides the server and host side libraries for interacting with hypervisors and host system. For communicating with libvirt, we use a command line tool called virsh. After creating a KVM Guest, we'll install Centos8 O.S. To create a centos8 Virtual machine, we're required the centos8 ISO file on our KVM virtualization host. So, we'll create the VM by using the qcow2 image. We've added a network in the command line as a part of creation. We've also added the commands for creation of VM to python code.
