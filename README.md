@@ -7,7 +7,7 @@ Using Pytool We should create a virtual machine, Deletion of virtual machine, Ne
 | ------------- | ------------- |
 | Creation and Installation of Virtual Machine  | Karisma Kiran  |
 | Integration of Code  | Yandapalli Priya Manasa  |
-| NAT Execution  |  Akshansh Mishra  |
+| Network Creation  |  Akshansh Mishra  |
 | Manual Code   |  Jasleen Kaur Sethi  |
 | Code Template-Menu Driven Program  |  Md. Danish Alam  |
 | Creation and Installation of Virtual Machine  | Sayani Basak  |
