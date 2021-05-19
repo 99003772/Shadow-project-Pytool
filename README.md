@@ -1,7 +1,7 @@
 # Shadow-project-Pytool
 
 # Aim 
-Using Pytool We should create a virtual machine, Deletion of virtual machine, Network creation, NAT, so that we can can display number of Virtual Machine, Network Status and also create a Python Menu-Driven Code for run these commands.
+Using Pytool We should create a virtual machine, Deletion of virtual machine, Network creation, NAT, so that we can display number of Virtual Machine, Network Status and also create a Python Menu-Driven Code for run these commands.
 # Individual Contribution
 | Work Assigned | Team Members  |
 | ------------- | ------------- |
