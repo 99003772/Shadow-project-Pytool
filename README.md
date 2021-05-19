@@ -43,12 +43,12 @@ Output: We will be able to create a VM, display all VM, run the VM, shutdown the
 There are some challenges faced during the project. They are:
 
 
-· Deploying the ISO Image to Virtual Machine.
+1.  Deploying the ISO Image to Virtual Machine.
 
-· Finding differences between ISO and qcow2.
+2. Finding differences between ISO and qcow2.
 
-· Adding network XML fil to code.
+3. Adding network XML fil to code.
 
-· While connecting to the portal Network connecting issues for connecting to serial console.
+4. While connecting to the portal Network connecting issues for connecting to serial console.
 
-· All the issues were solved by searching in internet and with references.
+5. All the issues were solved by searching in internet and with references.
