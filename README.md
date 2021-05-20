@@ -14,12 +14,12 @@ Using Pytool We should create a virtual machine, Deletion of virtual machine, Ne
 
 # Summary of the Project
 In this project, we'll see how to 
-1. create a VM
-2. delete a VM
-3. shutdown a VM
-4. ping the VM
-5. network creation
-6. creation of NAT
+1. Creation a Virtual Machine
+2. deletion of Virtual Machine
+3. Shutdown a Vitual Machine
+4. Pinging host to guest Machine
+5. Network Creation
+6. Creation of NAT
 
 We thus display number of Virtual machines and the network status. Here, we're creating a Virtual machine in which we're using a KVM guest that is built into Linux. KVM lets us turn Linux into a hypervisor that allows a host machine to run multiple Virtual machines. We're using libvirt package that provides the server and the host side libraries for interacting with hypervisors and host system. For communicating with libvirt, we use a command line tool called virsh. After creating a KVM Guest, we'll install Centos8 Operating System. To create a centos8 Virtual machine, we're required the centos8 ISO file on our KVM virtualization host. So, we'll create the VM by creating the qcow2 image for the disk path. We've added a network in the command line as a part of creation. We've also added the commands for creation, deletion and display of VM to python code.
 
