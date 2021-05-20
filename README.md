@@ -42,6 +42,7 @@ Why:
 2.  To check if the VM has been created and is able to communicate with the host machine or not we'll first check all the network connections. 
 
 Where:
+1. We are using the Microsoft azure Virtual environment for creating, deleting the Virtual machine.
 
 How:
 
