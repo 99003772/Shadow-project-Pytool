@@ -10,7 +10,7 @@ Using Pytool We should create a virtual machine, Deletion of virtual machine, Ne
 | Network Creation  |  Akshansh Mishra  |
 | Manual Code   |  Jasleen Kaur Sethi  |
 | Code Template-Menu Driven Program  |  Md. Danish Alam  |
-| Creation and Installation of Virtual Machine  | Sayani Basak  |
+| Pinging Host to guest vice-versa  | Sayani Basak  |
 
 # Summary of the Project
 In this project, we'll see how to 
