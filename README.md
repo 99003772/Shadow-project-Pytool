@@ -52,7 +52,7 @@ Output: We will be able to create a VM, display all VM, run the VM, shutdown the
 
 # SWOT Analysis
 
-                        ![swot analysis](https://user-images.githubusercontent.com/78854464/118943177-028a6780-b971-11eb-90a2-93cfda663e4b.png)
+   ![swot analysis](https://user-images.githubusercontent.com/78854464/118943177-028a6780-b971-11eb-90a2-93cfda663e4b.png)
 
 
 # Challenges Faced 
