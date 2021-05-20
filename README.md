@@ -47,6 +47,7 @@ Where:
 How:
 
 Input: We need to give the choice between 1-11. 
+
 Output: We will be able to create a VM, display all VM, run the VM, shutdown the VM, delete the VM, display the network connections, Ping the VM, creation of a network, display all networks, delete a network, exit the program.
 
 # Challenges Faced 
